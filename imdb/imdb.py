@@ -85,7 +85,7 @@ class Imdb(BaseCog):
             if data['Plot']:
                embed.description = data['Plot'][:500]
             if data['Poster'] != "N/A":
-               embed.set_icon(url=data['Poster'])
+               embed.set_thumbnail(url=data['Poster'])
             if data['Runtime']:
                embed.add_field(name="Runtime", value=data.get('Runtime', 'N/A'))
             if data['Genre']:
@@ -159,7 +159,7 @@ class Imdb(BaseCog):
             if data['Plot']:
                embed.description = data['Plot'][:500]
             if data['Poster'] != "N/A":
-               embed.set_icon(url=data['Poster'])
+               embed.set_thumbnail(url=data['Poster'])
             if data['Runtime']:
                embed.add_field(name="Runtime", value=data.get('Runtime', 'N/A'))
             if data['Genre']:
@@ -170,7 +170,7 @@ class Imdb(BaseCog):
                embed.add_field(name="Metascore", value=data.get('Metascore', 'N/A'))
             if data['imdbRating']:
                embed.add_field(name="IMDb", value=data.get('imdbRating', 'N/A'))
-            embed.set_footer(text="Powered by omdb")
+            embed.set_footer(text="ATLAS omdb")
             embed.colour = await ctx.embed_colour()
             embeds.append(embed)
 
