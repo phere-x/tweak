@@ -1,0 +1,8 @@
+{
+    "author" : ["Redbot cog devs"],
+    "install_msg" : "Forked cogs I've modified for my own needs.",
+    "name" : "Tweaked-cogs",
+    "short" : "Tweaked cogs for Atom-bot.",
+    "description" : "Tweaked cogs for Atom-bot.",
+    "tags" : ["Fun", "Images", "Utility", "Trigger"]
+}

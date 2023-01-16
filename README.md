@@ -1,2 +1,7 @@
-# tweak
-redbot cogs
+# tweaked-cogs
+
+Fixator:
+adminutils, datautils
+
+Jintaku:
+IMDB
